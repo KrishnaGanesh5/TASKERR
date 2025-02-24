@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #123745;
+}
+
+.container {
+    width: 80%;
+    margin: 40px auto;
+    text-align: center;
+    background-color: #c0c0c0e9;
+    padding: 20px;
+    border: 1px solid #9b9b9be9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#task-input {
+    width: 50%;
+    height: 30px;
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#add-task-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background-color: #00427c;
+    color: #fff;
+    cursor: pointer;
+}
+
+#add-task-button:hover {
+    background-color:#296295;
+}
+
+#reset-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background-color: #c01a0e;
+    color: #fff;
+    cursor: pointer;
+}
+
+#reset-button:hover {
+    background-color: #e0574d;
+}
+
+#task-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#task-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+#task-list li:last-child {
+    border-bottom: none;
+}
+
+#task-list li span {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+#task-list li button {
+    padding: 5px 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background-color: #f44336;
+    color: #fff;
+    cursor: pointer;
+}
+
+#task-list li button:hover {
+    background-color: #e91e63;
+}
